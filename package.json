@@ -1,0 +1,9 @@
+{
+  "name": "trapcheck",
+  "version": "0.1.0",
+  "description": "Read-only safety screen for trending Solana tokens: liquidity, LP lock, mint/freeze authority, holder concentration, RugCheck risks.",
+  "type": "module",
+  "bin": { "trapcheck": "trapcheck.ts" },
+  "scripts": { "trapcheck": "bun trapcheck.ts" },
+  "license": "MIT"
+}
